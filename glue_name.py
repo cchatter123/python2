@@ -2,7 +2,7 @@
 
 # NAME: Oliver Doty
 # DATE: 2/18/2025
-# BRIEF DESCRIPTION:  
+# BRIEF DESCRIPTION:  Getting two inputs and printing them out in a line
 
 
 
@@ -78,7 +78,7 @@ Hi, Lisa Simpson, esquire
    your response to Python. It might be a lesson in time management, a lesson
    using CodeGrade, or something else.
 
-
+how to gather inputs in python
 
 
 
