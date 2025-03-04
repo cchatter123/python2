@@ -2,7 +2,7 @@
 
 # NAME: Oliver Doty
 # DATE: 3/3/2025
-# BRIEF DESCRIPTION:  
+# BRIEF DESCRIPTION:  This code either prints Heads or Tails
 
 
 
@@ -11,15 +11,20 @@
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 
-
+import random
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 # Don't forget to import random!!!!!
+random.seed()
+cf_number = random.randint(0, 1)
 
+print("===== Coin Flipper =====")
 
-
-
+if cf_number == 1:
+    print("Heads")
+else:
+    print("Tails")
 
 
 
@@ -34,7 +39,7 @@
 #          SAMPLE OUTPUT
 ########################################
 '''
-===== Coin Flipper =====
+
 Heads
 '''
 
@@ -55,7 +60,7 @@ Tails
 1. What was the hardest part of completing this lab? 
 
 
-
+nothing
 
 
 

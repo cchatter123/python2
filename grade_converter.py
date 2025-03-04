@@ -2,7 +2,7 @@
 
 # NAME: Oliver Doty
 # DATE: 3/3/2025
-# BRIEF DESCRIPTION:  
+# BRIEF DESCRIPTION:  Converts # grades to letter grades
 
 
 
@@ -16,8 +16,21 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 
+print("===== Grade Converter =====")
+grade = int(input("Enter a numerical grade (1-100): "))
 
-
+if grade<65:
+    print("F")
+elif 65<=grade<70:
+    print("D")
+elif 70<=grade<80:
+    print("C")
+elif 80<=grade<90:
+    print("B")
+elif 90<=grade<100:
+    print("A")
+elif 100<=grade:
+    print("A+")
 
 
 
@@ -77,7 +90,7 @@ D
 1. What is something you would tell a future student to be careful about when
    doing this lab?
 
-
+dont forget to use <=
 
 
 

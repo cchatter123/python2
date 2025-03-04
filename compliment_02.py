@@ -2,7 +2,7 @@
 
 # NAME: Oliver Doty
 # DATE: 3/3/2025
-# BRIEF DESCRIPTION:  
+# BRIEF DESCRIPTION:  Outputs a compliment if the user says yes if they input anything else it says No compliment for you!
 
 
 
@@ -17,7 +17,15 @@
 
 
 
+answer = input("Would you like a compliment? ")
 
+if answer == 'yes':
+    print("You have wonderful eyes.")
+else:
+    print("No compliment for you!")
+
+
+print("Thank you for playing.")
 
 
 
