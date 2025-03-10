@@ -20,18 +20,18 @@ print("=== Network Traffic Security Analyzer ===\n")
 port_number = int(input("Enter the port number (e.g., 80, 22, 443, 3389): "))
 data_size = int(input("Enter the data transfer size in megabytes (MB): "))
 print()
-print("FIREWALL LOG: ")
+print("FIREWALL LOG:")
 print(f'Port: {port_number}, Transfer Size: {data_size} MB')
 
 if port_number == 22 and data_size > 500:
-    print("HIGH RISK: Potential unauthorized remote access detected!")
+    print("Risk Assessment: HIGH RISK: Potential unauthorized remote access detected!")
 elif port_number == 80 and data_size > 100:
-    print("MEDIUM RISK: Large unencrypted data transfer detected!")
+    print("Risk Assessment: MEDIUM RISK: Large unencrypted data transfer detected.")
 elif port_number == 443:
-    print("LOW RISK: Secure encrypted transfer detected.")
+    print("Risk Assessment: LOW RISK: Secure encrypted transfer detected.")
 else:
-    print("UNKNOWN: Unrecognized traffic pattern")
-
+    print("Risk Assessment: UNKNOWN: Unrecognized traffic pattern.")
+print("------------------------")
 
 
 
