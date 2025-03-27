@@ -15,6 +15,22 @@
 
 
 
+
+#########################################
+#               YOUR JOB:               #
+#                                       #
+# 1. Print out the list naturally       #
+# 2. Sort the list                      #
+# 3. Print out the list naturally       #
+# 4. Reverse the list                   #
+# 5. Print out the list naturally       #    
+#                                       #
+#########################################
+
+
+
+########## ENTER YER CODE BELOW THIS LINE ##########
+
 # Declare the variable 'name' and give it a value of NONE
 name = None
 
@@ -33,23 +49,13 @@ while (name != '_DONE_'):
 
 # Empty line for visual break
 print()
-
-#########################################
-#               YOUR JOB:               #
-#                                       #
-# 1. Print out the list naturally       #
-# 2. Sort the list                      #
-# 3. Print out the list naturally       #
-# 4. Reverse the list                   #
-# 5. Print out the list naturally       #    
-#                                       #
-#########################################
+print("Original list:", names)
 
 
+print("Sorted list:", names.sort)
 
-########## ENTER YER CODE BELOW THIS LINE ##########
 
-
+print("Reversed list:", names.reverse)
 
 
 

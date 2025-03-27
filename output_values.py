@@ -1,8 +1,8 @@
 # FILE NAME - output_values.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Oliver Doty
+# DATE: 3/26/2025
+# BRIEF DESCRIPTION:  Enter numbers for a list and this sorts and prints out those numbers
 
 
 
@@ -14,23 +14,23 @@
 
 
 
-def main():
-    output_values()
+#def main():
+#   output_values()
 
-def output_values():
+#def output_values():
     # Create an empty list
     
-    numbers =[]
+#    numbers =[]
 
 
 
     # Walk through the list and grab a number from the
     # user. Insert that number into the next available cell
     
-    for x in range(5):
-        numbers.append(int(input('Enter a number: ')))
+#    for x in range(5):
+#        numbers.append(int(input('Enter a number: ')))
 
-    print()
+#    print()
 
     
     #########################################
@@ -44,9 +44,18 @@ def output_values():
 
     ########## ENTER YER CODE BELOW THIS LINE ##########
 
+counter = 0
+val_list = []
+while counter <= 4:
+    val = int(input("Enter a number:"))
+    val_list.append(val)
+    counter += 1
 
     # Sort the list
-    
+val_list.sort()
+print(val_list)
+print("your numbers are:", end=" ")
+print(*val_list)
 
     # Print out the list naturally:
     
@@ -58,7 +67,7 @@ def output_values():
     ########### END YER CODE ABOVE THIS LINE ###########
 
 
-main()
+
 
 
 
@@ -112,7 +121,7 @@ Your numbers are: -1  0  0  0  1
 
 1. What is one lesson you learned in this lab?
 
-
+How to correctly use lists
 
 
 
@@ -131,7 +140,7 @@ Your numbers are: -1  0  0  0  1
 Please gauge your utilization of AI on the following spectrum. Place an "X" in front
 of the appropriate response. Only choose one of the following:
 
-[ ] I did not use AI at all for this lab.
+[x] I did not use AI at all for this lab.
 [ ] I wrote the initial draft of the software but had AI help me make it better.
 [ ] I fed the lab description to AI and had it generate a response but I modified it.
 [ ] AI created the entire program for me.
@@ -146,6 +155,6 @@ may impede your understanding. Please rate how well you understand the concepts 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
 [ ] I pretty much get it.
-[ ] I'm solid. Totally got it.
+[x] I'm solid. Totally got it.
 
 '''
