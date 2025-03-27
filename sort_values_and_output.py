@@ -51,11 +51,11 @@ while (name != '_DONE_'):
 print()
 print("Original list:", names)
 
+names.sort()
+print("Sorted list:", names)
 
-print("Sorted list:", names.sort)
-
-
-print("Reversed list:", names.reverse)
+names.reverse()
+print("Reversed list:", names)
 
 
 
