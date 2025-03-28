@@ -34,8 +34,8 @@ while True:
     user_input = input('Enter a number ("DONE" to finish): ')
         
         # If the input is "DONE", break out of the `while`` loop
-    if user_input == 'DONE':
-        print('\n---END OF INPUT---\n')
+    if user_input == "DONE":
+        print("\n---END OF INPUT---\n")
         break
     else:
             # Otherwise, convert the input to an `int` and append
@@ -115,8 +115,7 @@ AVERAGE =  1.0
 1. What is the hardest part of this lab?
 
 
-
-
+Getting the output correct
 
 
 

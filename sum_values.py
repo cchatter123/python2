@@ -32,22 +32,22 @@ print("Please enter failed login attempts")
 print("==================================\n")
 
 
-day = int(input("Monday:    "))
+day = int(input("  Monday:    "))
 login_count += day
-day = int(input("Tuesday:   "))
+day = int(input("  Tuesday:   "))
 login_count += day
-day = int(input("Wednesday: "))
+day = int(input("  Wednesday: "))
 login_count += day
-day = int(input("Thursday:  "))
+day = int(input("  Thursday:  "))
 login_count += day
-day = int(input("Friday:    "))
+day = int(input("  Friday:    "))
 login_count += day
 print("\n")
 print("===== FAILED LOGIN ATTEMPTS ANALYZER =====\n")
 print(f'Total failed login attempts for the week: {login_count}\n')
 
 if login_count >= 100:
-    print("SECURITY ALERT: Weekly threshold of 100 attempts has been exceeded!\nRecommendation: Investiage for potential brute force attacks.")
+    print("SECURITY ALERT: Weekly threshold of 100 attempts has been exceeded!\nRecommendation: Investigate for potential brute force attacks.")
 else:
     print("Everything seems normal. It's quiet. Too quiet.\nRecommendation: Continue routine monitoring.")
 
