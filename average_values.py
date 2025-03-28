@@ -30,7 +30,6 @@ numbers = []
     
     # Keep running through this `while` loop forever
 while True:
-
     user_input = input('Enter a number ("DONE" to finish): ')
         
         # If the input is "DONE", break out of the `while`` loop
