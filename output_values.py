@@ -47,15 +47,16 @@
 counter = 0
 val_list = []
 while counter <= 4:
-    val = int(input("Enter a number:"))
+    val = int(input("Enter a number: "))
     val_list.append(val)
     counter += 1
 
     # Sort the list
 val_list.sort()
+print()
 print(val_list)
-print("your numbers are:", end=" ")
-print(*val_list)
+print("Your numbers are:", end=" ")
+print(*val_list, sep= "  ")
 
     # Print out the list naturally:
     

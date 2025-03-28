@@ -1,8 +1,8 @@
 # FILE NAME - sort_values_and_output.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Oliver Doty
+# DATE: 3/27/2025
+# BRIEF DESCRIPTION:  Sorts input in 2 different ways
 
 
 
@@ -49,13 +49,13 @@ while (name != '_DONE_'):
 
 # Empty line for visual break
 print()
-print("Original list:", names)
+print("ORIGINAL -", names)
 
 names.sort()
-print("Sorted list:", names)
+print("SORTED -", names)
 
 names.reverse()
-print("Reversed list:", names)
+print("REVERSED -", names)
 
 
 
@@ -150,7 +150,7 @@ REVERSED - ['foxtrot', 'delta', 'alpha', 'ECHO', 'CHARLIE', 'BRAVO']
 
 1. What is one lesson you learned in this lab?
 
-
+How the outputs work
 
 
 
@@ -174,6 +174,6 @@ may impede your understanding. Please rate how well you understand the concepts 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
 [ ] I pretty much get it.
-[ ] I'm solid. Totally got it.
+[x] I'm solid. Totally got it.
 
 '''
