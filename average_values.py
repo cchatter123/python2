@@ -47,7 +47,7 @@ while True:
 
 
 print("NUMBER = ", numbers)
-print("SUM = ", num_sum)
+print("SUM =", num_sum)
 print("AVERAGE = ", num_sum/count)
 
 

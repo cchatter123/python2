@@ -1,8 +1,8 @@
 # FILE NAME - password_strength_analyzer.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Oliver Doty
+# DATE: 3/28/2025
+# BRIEF DESCRIPTION:  Grades your given password
 
 
 
@@ -152,7 +152,7 @@ Strength Percentage: 92.5%
 '''
 
 '''
-Enter your password: 123pasWOR!@#888888888888
+Enter your password: 
 
 Password Analysis Report
 -------------------------
@@ -177,7 +177,7 @@ Strength Percentage: 100.0%
    that were challenging for you?
 
 
-
+Getting out the outputs to line up
 
 
 
@@ -199,6 +199,6 @@ may impede your understanding. Please rate how well you understand the concepts 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
 [ ] I pretty much get it.
-[ ] I'm solid. Totally got it.
+[x] I'm solid. Totally got it.
 
 '''

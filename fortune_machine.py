@@ -1,8 +1,8 @@
 # FILE NAME - fortune_machine.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Oliver Doty
+# DATE: 3/28/2025
+# BRIEF DESCRIPTION:  Outputs random fortunes that users input
 
 
 
@@ -60,7 +60,7 @@ while True:
         random_number = random.randint(1, count)
         print(fortunes[random_number - 1])
     else:
-        print("\nThank you for using the Fortune Telling Machine!\nSmash that LIKE and Subscribe button and tell your friends!")
+        print("\n\nThank you for using the Fortune Telling Machine!\nSmash that LIKE and Subscribe button and tell your friends!")
         break
 
 
@@ -203,7 +203,7 @@ Smash that LIKE and Subscribe button and tell your friends!
 1. This is one of your first experiences with larger programs - what are three things
    that were challenging for you?
 
-
+Getting the output correct and gettings things to output/append correctly
 
 
 
@@ -226,6 +226,6 @@ may impede your understanding. Please rate how well you understand the concepts 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
 [ ] I pretty much get it.
-[ ] I'm solid. Totally got it.
+[x] I'm solid. Totally got it.
 
 '''

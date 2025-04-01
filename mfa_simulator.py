@@ -1,8 +1,8 @@
 # FILE NAME - mfa_simulator.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Oliver Doty
+# DATE: 3/28/2025
+# BRIEF DESCRIPTION:  Auto generates Multi-Factor Authentication 
 
 
 
@@ -32,7 +32,7 @@ while counter<10:
     counter += 1
 
 print("\n===============================")
-print("  SIMULATING CODE USE          ")
+print("     SIMULATING CODE USE       ")
 print("===============================\n")
 user_code = int(input("You have 10 codes remaining.\nEnter a valid code: "))
 
