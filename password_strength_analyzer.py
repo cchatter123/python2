@@ -152,7 +152,7 @@ Strength Percentage: 92.5%
 '''
 
 '''
-Enter your password: 
+Enter your password: 123pasWOR!@#888888888888
 
 Password Analysis Report
 -------------------------
