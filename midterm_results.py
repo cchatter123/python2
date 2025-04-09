@@ -2,7 +2,7 @@
 
 # NAME: Oliver Doty
 # DATE: 4/9/2025
-# BRIEF DESCRIPTION:  
+# BRIEF DESCRIPTION:  Gives the user a choice to find area of a circle/rectangle, then allows them to keep replaying at will. Then outputs all results
 
 
 
@@ -14,25 +14,29 @@
 
 results = []
 
+again = "y"
 
-def circle():
-    # implement code from previous work
+print("Welcome to the Mathenator2000\n")
+while again == 'y':
+    print("Please choose from the following menu:\n  1. Compute area of a circle\n  2. Compute area of the rectangle\n")
+    answer = int(input("What is your choice? "))
+    print()
+    if answer == 1:
+        radius = float(input("What is the radius of a circle? "))
+        print(f'The area of the circle is {(radius * radius) * 3.14}')
+        results.append(f'The area of the circle is {(radius * radius) * 3.14}')
+    elif answer == 2:
+        length = float(input("What is the length of the rectangle? "))
+        width = float(input("What is the width of the rectangle? "))
+        results.append(f'The area of the rectangle is {length * width}')
+    else: 
+        print("Invalid selection.")
 
+    print()
+    again = input("Would you like to play again (y/n)? ")
+    print()
 
-def rectangle():    
-    # implement code from previous work
-
-
-def menu():
-    # implement code from previous work
-
-
-def main():
-    # write this code
-    # feel free to use more functions
-
-
-
-
-
-main()
+print("-------------------------")
+print("A record of your results:")
+print(results)
+print("\nThank you for using the Mathinator2000")
