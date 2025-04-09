@@ -2,7 +2,7 @@
 
 # NAME: Oliver Doty
 # DATE: 4/9/2025
-# BRIEF DESCRIPTION:  
+# BRIEF DESCRIPTION:  asks user for length and width then outputs the area
 
 length = float(input("What is the length of the rectangle? "))
 width = float(input("What is the width of the rectangle? "))
