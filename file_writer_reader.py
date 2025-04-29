@@ -1,8 +1,8 @@
-# FILE NAME - file_reader.py
+# FILE NAME - file_reader_writer.py
 
 # NAME: Oliver Doty
 # DATE: 4/29/2025
-# BRIEF DESCRIPTION:  user inputs file name, code outputs contents
+# BRIEF DESCRIPTION:  
 
 
 
@@ -11,13 +11,43 @@
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 
+
 fileName = input("File name? ")
+
+
+fileAdd = input("Word to add? ")
+
+
+print()
+
+with open(fileName, "a") as file:
+    file.write(fileAdd)
+    
 file = open(fileName, 'r')
 fileRead = file.readlines()
-print()
 
 for line in fileRead:
     print(line.strip())
+
+
+
+
+# File name? marvel.txt
+# Word to add? She-Hulk
+
+#    '''
+ #   This function will ask the user to type the name
+#  of a file. The program will open the file, ask the
+#    user to enter a word (or phrase), and add that input
+#    to the end of the file. #
+
+ #   Then the file is closed.
+
+#    The file is reopened and the contents are output.
+#    '''
+    
+
+
 
 
 
@@ -27,37 +57,81 @@ for line in fileRead:
 ########################################
 
 '''
-File name? words01.txt
+File name? marvel.txt
+Word to add? She-Hulk
 
-Wolverine
-Rogue
-Psylocke
-Professor X
-Beast
+Steve Rogers
+Tony Stark
+Thor Odinson
+Bruce Banner
+Natasha Romanoff
+Clint Barton
+Sam Wilson
+Wanda Maximoff
+Pietro Maximoff
+The Vision
+Scott Lang
+Peter Parker
+Carol Danvers
+Darcy Lewis
+Valkyrie
+Korg
+Miek
+Yelena Belova
+Hank Pym
+She-Hulk
 '''
 
 
 '''
-File name? words02.txt
+File name? movies.txt
+Word to add? Blair Witch Project
 
-Lily
-Marshall
-Barney
-Robin
-Ted
+Star Wars: Episode I - The Phantom Menace
+The Sixth Sense
+Toy Story 2
+Austin Powers: The Spy Who Shagged Me
+The Matrix
+Tarzan
+Big Daddy
+The Mummy
+Runaway Bride
+Blair Witch Project
 '''
 
 
 '''
-File name? words03.txt
+File name? pokemon.txt
+Word to add? Sandslash
 
-blubber
-macadamia
-gazebo
-spatula
-plethora
-ploy
-foible
+Bulbasaur
+Ivysaur
+Venusaur
+Charmander
+Charmeleon
+Charizard
+Squirtle
+Wartortle
+Blastoise
+Caterpie
+Metapod
+Butterfree
+Weedle
+Kakuna
+Beedrill
+Pidgey
+Pidgeotto
+Pidgeot
+Rattata
+Raticate
+Spearow
+Fearow
+Ekans
+Arbok
+Pikachu
+Raichu
+Sandshrew
+Sandslash
 '''
 
 
@@ -67,10 +141,11 @@ foible
 
 '''
 
-1. What is an example of a time when you might want to output the contents
-   of a file?
+1. Writing to a file isn't terribly hard if you can open a file. But how would you 
+   take the contents of a file like the ones in the Sample Output and alphabetize them?
+   Make sure you are specific - write down each step.
 
-When making a list
+
 
 
 
@@ -89,7 +164,7 @@ When making a list
 Please gauge your utilization of AI on the following spectrum. Place an "X" in front
 of the appropriate response. Only choose one of the following:
 
-[x] I did not use AI at all for this lab.
+[ ] I did not use AI at all for this lab.
 [ ] I wrote the initial draft of the software but had AI help me make it better.
 [ ] I fed the lab description to AI and had it generate a response but I modified it.
 [ ] AI created the entire program for me.
@@ -104,6 +179,6 @@ may impede your understanding. Please rate how well you understand the concepts 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
 [ ] I pretty much get it.
-[x] I'm solid. Totally got it.
+[ ] I'm solid. Totally got it.
 
 '''
