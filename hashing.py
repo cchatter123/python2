@@ -1,16 +1,17 @@
-import hashlib
+
 #Oliver Doty
 #4/18/2025
 
 
-message = input("Enter the message to hash: ")
+import hashlib
 
-hash_object = hashlib.sha256()
 
-hash_object.update(message.encode('utf-8'))
-hashed = hash_object.hexdigest()
+message = input('Enter the message to hash: ')
 
-print("Hashed:", hashed)
+message_bytes = message.encode()
+hashed_message = hashlib.sha256(message_bytes)
+hash_hex = hashed_message.hexdigest()
+print(f'Hashed:  {hash_hex}')
 '''
 SAMPLE OUTPUT
 
