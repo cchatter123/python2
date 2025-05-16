@@ -19,10 +19,18 @@ sentences = [
 ]
 
 text = random.choice(sentences)
-print("Typing Speed Test")
+print("----- Typing Speed Test -----")
 print("Type the following sentence as fast as you can:\n")
 print(f"» {text}")
 input("Press Enter when you're ready...")
+
+print("3")
+time.sleep(1)
+print("2")
+time.sleep(1)
+print("1")
+time.sleep(1)
+print("GO!")
 
 start = time.time()
 typed = input("\nStart typing:\n")
@@ -60,8 +68,15 @@ print(f"🎯 Accuracy: {accuracy:.2f}%")
    refined your prompt, things that went wrong and you couldn't fix, how much actual
    Python you had to use.
 
-Overall I found it fairly hard to find something that would work with python. Many ideas pushed more towards imports and those imports wouldn't work. So I did a bit of browsing.
-The only part that went "wrong" was I didn't like that it was limited to one sentence. So I went through what AI could do.
+Overall I found it fairly hard to find something that would work with python. Many ideas pushed more towards
+imports and those imports wouldn't work. So I did a bit of browsing. The only part that went "wrong" was I didn't 
+like that it was limited to one sentence. So I went through what AI could do. After finding the right
+one I didn't entirely like how it was strictly 1 sentence. so I added some extra generated sentences to mix it up.
+
+On the total output of the test. It felt really bland and started really fast so i could see that being a problem.
+I wanted to create a timer and use print statements and time.sleep(1). After fixing everything that I felt looked
+off about the code. It seems like to works really well. It is simple and easy, looks good and runs well.
+
 
 
 
