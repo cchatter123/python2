@@ -15,13 +15,14 @@ new_page = maze_address + ".html"
 while True:
     page = requests.get(f'https://phishingdemo.org/python/scraping/maze/{new_page}', headers={"User-Agent": ""})
     soup = BeautifulSoup(page.content, 'html.parser')
+    soup = soup.body
     new_page = str(soup)
-    soup_str = soup_str[17:-15]
-    print(new_page)
-    if len(new_page) <= 9:
+
+    if len(new_page) <= 15:
         print(new_page)
         break
-
+    new_page = new_page[12:-7]
+    print(new_page)
 
 
 
