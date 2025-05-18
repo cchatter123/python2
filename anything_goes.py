@@ -2,7 +2,7 @@
 
 # NAME - Oliver Doty
 # DATE - 5/10/2025
-# DESCRIPTION - This code with import an AI chatbot
+# DESCRIPTION - This code is a Typing Speed Test
 
 
 
